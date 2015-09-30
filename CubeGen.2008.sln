@@ -1,16 +1,12 @@
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CubeGen", "CubeGen.2008.vcproj", "{799C4DD7-35E7-4FA7-AA29-F0DF4101DCDD}"
-	ProjectSection(ProjectDependencies) = postProject
-		{34314D38-6080-4FD0-9DBD-A7AAC016AE65} = {34314D38-6080-4FD0-9DBD-A7AAC016AE65}
-	EndProjectSection
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CubeGen", "CubeGen.2008.vcxproj", "{799C4DD7-35E7-4FA7-AA29-F0DF4101DCDD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CubeMapGenLib", "CubeMapGenLib.2008.vcproj", "{34314D38-6080-4FD0-9DBD-A7AAC016AE65}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CubeMapGenLib", "CubeMapGenLib.2008.vcxproj", "{34314D38-6080-4FD0-9DBD-A7AAC016AE65}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example", "Example\Example.2008.vcproj", "{90574D5A-028B-44B5-8B7F-C16D77C75D9F}"
-	ProjectSection(ProjectDependencies) = postProject
-		{34314D38-6080-4FD0-9DBD-A7AAC016AE65} = {34314D38-6080-4FD0-9DBD-A7AAC016AE65}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example", "Example\Example.2008.vcxproj", "{90574D5A-028B-44B5-8B7F-C16D77C75D9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +21,7 @@ Global
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{799C4DD7-35E7-4FA7-AA29-F0DF4101DCDD}.Debug MT DLL|Win32.ActiveCfg = Debug|Win32
+		{799C4DD7-35E7-4FA7-AA29-F0DF4101DCDD}.Debug MT DLL|Win32.Build.0 = Debug|Win32
 		{799C4DD7-35E7-4FA7-AA29-F0DF4101DCDD}.Debug MT DLL|x64.ActiveCfg = Debug|x64
 		{799C4DD7-35E7-4FA7-AA29-F0DF4101DCDD}.Debug MT|Win32.ActiveCfg = Debug|Win32
 		{799C4DD7-35E7-4FA7-AA29-F0DF4101DCDD}.Debug MT|Win32.Build.0 = Debug|Win32
@@ -53,6 +50,7 @@ Global
 		{34314D38-6080-4FD0-9DBD-A7AAC016AE65}.Release MT|x64.ActiveCfg = Release MT|x64
 		{34314D38-6080-4FD0-9DBD-A7AAC016AE65}.Release MT|x64.Build.0 = Release MT|x64
 		{90574D5A-028B-44B5-8B7F-C16D77C75D9F}.Debug MT DLL|Win32.ActiveCfg = Debug|Win32
+		{90574D5A-028B-44B5-8B7F-C16D77C75D9F}.Debug MT DLL|Win32.Build.0 = Debug|Win32
 		{90574D5A-028B-44B5-8B7F-C16D77C75D9F}.Debug MT DLL|x64.ActiveCfg = Debug|x64
 		{90574D5A-028B-44B5-8B7F-C16D77C75D9F}.Debug MT|Win32.ActiveCfg = Debug|Win32
 		{90574D5A-028B-44B5-8B7F-C16D77C75D9F}.Debug MT|Win32.Build.0 = Debug|Win32
